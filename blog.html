@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Yoga With Us</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <div class="logo-icon">🧘</div>
+                <span>Yoga With Us</span>
+            </a>
+            <div class="nav-menu" id="navMenu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="blog.html" class="nav-link active">Blog</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+                <a href="terms.html" class="nav-link">Terms</a>
+                <a href="privacy.html" class="nav-link">Privacy</a>
+            </div>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="page-header">
+        <h1>Yoga Insights & Inspiration</h1>
+        <p>Discover tips, techniques, and stories to deepen your practice</p>
+    </section>
+
+    <!-- Featured Post -->
+    <section class="section">
+        <div class="container-narrow">
+            <div class="blog-card" style="display: grid; grid-template-columns: 1fr 1fr; gap: 0; max-width: 100%;">
+                <img src="https://images.unsplash.com/photo-1545389336-cf090694435e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx5b2dhJTIwc3VucmlzZXxlbnwwfHx8fDE3Mzc1Njk2MzJ8MA&ixlib=rb-4.0.3&q=80&w=1080" alt="Featured" class="blog-card-image" style="height: 100%; object-fit: cover;">
+                <div class="blog-card-content" style="padding: 3rem;">
+                    <span class="blog-category">Featured</span>
+                    <h2 style="font-size: 2rem; margin-bottom: 1rem;">The Ultimate Guide to Starting Your Yoga Journey</h2>
+                    <p style="font-size: 1.05rem; margin-bottom: 2rem;">Everything you need to know as a beginner - from choosing the right style to establishing a sustainable practice routine that fits your lifestyle.</p>
+                    <div class="blog-meta">
+                        <div class="blog-author">
+                            <i class="fas fa-user-circle" style="font-size: 1.25rem; color: var(--primary);"></i>
+                            <span>Maya Patel</span>
+                        </div>
+                        <span><i class="fas fa-calendar"></i> Jan 15, 2026</span>
+                        <span><i class="fas fa-clock"></i> 8 min read</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Latest Posts -->
+    <section class="section section-gradient">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Latest Articles</span>
+                <h2>Recent From Our Blog</h2>
+                <p>Stay updated with the latest yoga tips, wellness advice, and community stories.</p>
+            </div>
+            <div class="grid grid-3">
+                <div class="blog-card">
+                    <img src="https://images.unsplash.com/photo-1603988363607-e1e4a66962c6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx5b2dhJTIwbW9ybmluZ3xlbnwwfHx8fDE3Mzc1Njk2MzJ8MA&ixlib=rb-4.0.3&q=80&w=1080" alt="Morning Yoga" class="blog-card-image">
+                    <div class="blog-card-content">
+                        <span class="blog-category">Lifestyle</span>
+                        <h3>10 Morning Yoga Poses to Energize Your Day</h3>
+                        <p>Start your mornings with these simple yet powerful poses that will wake up your body and set a positive tone for the entire day.</p>
+                        <div class="blog-meta">
+                            <div class="blog-author">
+                                <i class="fas fa-user-circle"></i>
+                                <span>Sarah Johnson</span>
+                            </div>
+                            <span><i class="fas fa-calendar"></i> Jan 18, 2026</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="blog-card">
+                    <img src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx5b2dhJTIwYmVnaW5uZXJ8ZW58MHx8fHwxNzM3NTY5NjMyfDA&ixlib=rb-4.0.3&q=80&w=1080" alt="Breathing" class="blog-card-image">
+                    <div class="blog-card-content">
+                        <span class="blog-category" style="background: var(--gradient-2);">Techniques</span>
+                        <h3>Breathwork Basics: Pranayama for Beginners</h3>
+                        <p>Discover the transformative power of breath control and learn simple pranayama techniques to reduce stress and increase energy.</p>
+                        <div class="blog-meta">
+                            <div class="blog-author">
+                                <i class="fas fa-user-circle"></i>
+                                <span>David Chen</span>
+                            </div>
+                            <span><i class="fas fa-calendar"></i> Jan 16, 2026</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="blog-card">
+                    <img src="https://images.unsplash.com/photo-1599901860904-17e6ed7083a0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx5b2dhJTIwbWVkaXRhdGlvbnxlbnwwfHx8fDE3Mzc1Njk2MzJ8MA&ixlib=rb-4.0.3&q=80&w=1080" alt="Meditation" class="blog-card-image">
+                    <div class="blog-card-content">
+                        <span class="blog-category" style="background: var(--gradient-3);">Mindfulness</span>
+                        <h3>Meditation Made Simple: A 7-Day Challenge</h3>
+                        <p>Join our week-long meditation challenge designed to help you build a consistent practice and experience profound inner peace.</p>
+                        <div class="blog-meta">
+                            <div class="blog-author">
+                                <i class="fas fa-user-circle"></i>
+                                <span>Lisa Anderson</span>
+                            </div>
+                            <span><i class="fas fa-calendar"></i> Jan 14, 2026</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="blog-card">
+                    <img src="https://images.unsplash.com/photo-1571902943202-507ec2618e8f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx5b2dhJTIwcmVsYXhhdGlvbnxlbnwwfHx8fDE3Mzc1Njk2MzJ8MA&ixlib=rb-4.0.3&q=80&w=1080" alt="Stress Relief" class="blog-card-image">
+                    <div class="blog-card-content">
+                        <span class="blog-category">Wellness</span>
+                        <h3>Yoga for Stress Relief: Finding Calm in Chaos</h3>
+                        <p>Learn how specific yoga poses and breathing techniques can help you manage stress and cultivate a sense of calm amidst life's challenges.</p>
+                        <div class="blog-meta">
+                            <div class="blog-author">
+                                <i class="fas fa-user-circle"></i>
+                                <span>Michael Brown</span>
+                            </div>
+                            <span><i class="fas fa-calendar"></i> Jan 12, 2026</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="blog-card">
+                    <img src="https://images.unsplash.com/photo-1588286840104-8957b019727f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx5b2dhJTIwZmxvd3xlbnwwfHx8fDE3Mzc1Njk2MzJ8MA&ixlib=rb-4.0.3&q=80&w=1080" alt="Flexibility" class="blog-card-image">
+                    <div class="blog-card-content">
+                        <span class="blog-category" style="background: var(--gradient-2);">Practice</span>
+                        <h3>Improving Flexibility: A 30-Day Yoga Plan</h3>
+                        <p>Follow this structured 30-day program designed to gradually increase your flexibility and range of motion through targeted poses.</p>
+                        <div class="blog-meta">
+                            <div class="blog-author">
+                                <i class="fas fa-user-circle"></i>
+                                <span>Emma Wilson</span>
+                            </div>
+                            <span><i class="fas fa-calendar"></i> Jan 10, 2026</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="blog-card">
+                    <img src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx5b2dhJTIwY2xhc3MlMjBncm91cHxlbnwwfHx8fDE3Mzc1Njk2MzJ8MA&ixlib=rb-4.0.3&q=80&w=1080" alt="Community" class="blog-card-image">
+                    <div class="blog-card-content">
+                        <span class="blog-category" style="background: var(--gradient-3);">Community</span>
+                        <h3>The Power of Practicing Yoga in Community</h3>
+                        <p>Discover how practicing with others can enhance your yoga experience, provide motivation, and create lasting connections.</p>
+                        <div class="blog-meta">
+                            <div class="blog-author">
+                                <i class="fas fa-user-circle"></i>
+                                <span>Rachel Green</span>
+                            </div>
+                            <span><i class="fas fa-calendar"></i> Jan 8, 2026</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Explore Topics</span>
+                <h2>Browse By Category</h2>
+                <p>Find articles that match your interests and practice level.</p>
+            </div>
+            <div class="grid grid-4">
+                <div class="card">
+                    <div class="card-icon">
+                        <i class="fas fa-seedling"></i>
+                    </div>
+                    <h3>Beginner Guides</h3>
+                    <p>Essential resources for those just starting their yoga journey.</p>
+                    <a href="#" class="btn-text" style="margin-top: 1rem;">Explore <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="card">
+                    <div class="card-icon secondary">
+                        <i class="fas fa-dumbbell"></i>
+                    </div>
+                    <h3>Advanced Practice</h3>
+                    <p>Challenging poses and techniques for experienced practitioners.</p>
+                    <a href="#" class="btn-text" style="margin-top: 1rem;">Explore <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="card">
+                    <div class="card-icon tertiary">
+                        <i class="fas fa-heartbeat"></i>
+                    </div>
+                    <h3>Wellness & Health</h3>
+                    <p>Holistic health tips and lifestyle advice for overall well-being.</p>
+                    <a href="#" class="btn-text" style="margin-top: 1rem;">Explore <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="card">
+                    <div class="card-icon" style="background: var(--gradient-2);">
+                        <i class="fas fa-om"></i>
+                    </div>
+                    <h3>Philosophy & Wisdom</h3>
+                    <p>Explore the deeper spiritual aspects of yoga tradition.</p>
+                    <a href="#" class="btn-text" style="margin-top: 1rem;">Explore <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter CTA -->
+    <section class="cta-section">
+        <div class="container-narrow text-center">
+            <h2>Stay Inspired</h2>
+            <p class="lead">Subscribe to our newsletter and get weekly yoga tips, wellness advice, and exclusive content delivered to your inbox.</p>
+            <div style="max-width: 500px; margin: 0 auto; display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center;">
+                <a href="contact.html" class="btn btn-primary">Subscribe Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-grid">
+            <div class="footer-col">
+                <h3>Yoga With Us</h3>
+                <p>Empowering individuals to discover their inner strength and achieve holistic wellness through the transformative practice of yoga.</p>
+            </div>
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Legal</h3>
+                <ul>
+                    <li><a href="terms.html">Terms & Conditions</a></li>
+                    <li><a href="privacy.html">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Contact Us</h3>
+                <ul class="contact-list">
+                    <li><i class="fas fa-envelope"></i> help@yogawithus.in</li>
+                    <li><i class="fas fa-phone"></i> +1-736-635-2762</li>
+                    <li><i class="fas fa-map-marker-alt"></i> San Francisco, CA</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; <span id="currentYear"></span> Yoga With Us. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
